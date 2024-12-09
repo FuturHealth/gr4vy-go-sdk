@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_GiftCardsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_GiftCardsAPIService(t *testing.T) {
 
 	t.Run("Test GiftCardsAPIService CheckGiftCardBalances", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.GiftCardsAPI.CheckGiftCardBalances(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_GiftCardsAPIService(t *testing.T) {
 
 	t.Run("Test GiftCardsAPIService DeleteGiftCard", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var giftCardId string
 
@@ -49,7 +49,7 @@ func Test_openapi_GiftCardsAPIService(t *testing.T) {
 
 	t.Run("Test GiftCardsAPIService GetGiftCard", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var giftCardId string
 
@@ -63,7 +63,7 @@ func Test_openapi_GiftCardsAPIService(t *testing.T) {
 
 	t.Run("Test GiftCardsAPIService ListBuyerGiftCards", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.GiftCardsAPI.ListBuyerGiftCards(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_GiftCardsAPIService(t *testing.T) {
 
 	t.Run("Test GiftCardsAPIService ListGiftCards", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.GiftCardsAPI.ListGiftCards(context.Background()).Execute()
 
@@ -87,7 +87,7 @@ func Test_openapi_GiftCardsAPIService(t *testing.T) {
 
 	t.Run("Test GiftCardsAPIService StoreGiftCard", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.GiftCardsAPI.StoreGiftCard(context.Background()).Execute()
 

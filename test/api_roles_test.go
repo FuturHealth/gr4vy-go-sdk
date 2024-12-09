@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_RolesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService DeleteRoleAssignment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var roleAssignmentId string
 
@@ -37,7 +37,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService ListRoleAssignments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RolesAPI.ListRoleAssignments(context.Background()).Execute()
 
@@ -49,7 +49,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService ListRoles", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RolesAPI.ListRoles(context.Background()).Execute()
 
@@ -61,7 +61,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService NewRoleAssignment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RolesAPI.NewRoleAssignment(context.Background()).Execute()
 

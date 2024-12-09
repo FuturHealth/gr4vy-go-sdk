@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_GiftCardServicesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_GiftCardServicesAPIService(t *testing.T) {
 
 	t.Run("Test GiftCardServicesAPIService DeleteGiftCardService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var giftCardServiceId string
 
@@ -37,7 +37,7 @@ func Test_openapi_GiftCardServicesAPIService(t *testing.T) {
 
 	t.Run("Test GiftCardServicesAPIService GetGiftCardService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var giftCardServiceId string
 
@@ -51,7 +51,7 @@ func Test_openapi_GiftCardServicesAPIService(t *testing.T) {
 
 	t.Run("Test GiftCardServicesAPIService NewGiftCardService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.GiftCardServicesAPI.NewGiftCardService(context.Background()).Execute()
 
@@ -63,7 +63,7 @@ func Test_openapi_GiftCardServicesAPIService(t *testing.T) {
 
 	t.Run("Test GiftCardServicesAPIService UpdateGiftCardService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var giftCardServiceId string
 
@@ -77,7 +77,7 @@ func Test_openapi_GiftCardServicesAPIService(t *testing.T) {
 
 	t.Run("Test GiftCardServicesAPIService VerifyGiftCardService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.GiftCardServicesAPI.VerifyGiftCardService(context.Background()).Execute()
 

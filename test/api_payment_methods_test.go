@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_PaymentMethodsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_PaymentMethodsAPIService(t *testing.T) {
 
 	t.Run("Test PaymentMethodsAPIService DeletePaymentMethod", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var paymentMethodId string
 
@@ -37,7 +37,7 @@ func Test_openapi_PaymentMethodsAPIService(t *testing.T) {
 
 	t.Run("Test PaymentMethodsAPIService GetPaymentMethod", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var paymentMethodId string
 
@@ -51,7 +51,7 @@ func Test_openapi_PaymentMethodsAPIService(t *testing.T) {
 
 	t.Run("Test PaymentMethodsAPIService ListBuyerPaymentMethods", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PaymentMethodsAPI.ListBuyerPaymentMethods(context.Background()).Execute()
 
@@ -63,7 +63,7 @@ func Test_openapi_PaymentMethodsAPIService(t *testing.T) {
 
 	t.Run("Test PaymentMethodsAPIService ListPaymentMethods", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PaymentMethodsAPI.ListPaymentMethods(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_PaymentMethodsAPIService(t *testing.T) {
 
 	t.Run("Test PaymentMethodsAPIService NewPaymentMethod", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PaymentMethodsAPI.NewPaymentMethod(context.Background()).Execute()
 

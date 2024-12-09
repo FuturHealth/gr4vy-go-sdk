@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_PaymentOptionsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_PaymentOptionsAPIService(t *testing.T) {
 
 	t.Run("Test PaymentOptionsAPIService ListPaymentOptions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PaymentOptionsAPI.ListPaymentOptions(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_PaymentOptionsAPIService(t *testing.T) {
 
 	t.Run("Test PaymentOptionsAPIService PostListPaymentOptions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PaymentOptionsAPI.PostListPaymentOptions(context.Background()).Execute()
 

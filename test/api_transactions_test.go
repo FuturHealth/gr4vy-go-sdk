@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_TransactionsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService CaptureTransaction", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var transactionId string
 
@@ -38,7 +38,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService GetRefund", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var transactionId string
 		var refundId string
@@ -53,7 +53,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService GetSingleRefund", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var refundId string
 
@@ -67,7 +67,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService GetTransaction", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var transactionId string
 
@@ -81,7 +81,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService GetTransactionSettlement", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var transactionId string
 		var settlementId string
@@ -96,7 +96,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService GetTransactionSettlements", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var transactionId string
 
@@ -110,7 +110,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService ListTransactionRefunds", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var transactionId string
 
@@ -124,7 +124,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService ListTransactions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TransactionsAPI.ListTransactions(context.Background()).Execute()
 
@@ -136,7 +136,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService NewRefund", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var transactionId string
 
@@ -150,7 +150,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService NewTransaction", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TransactionsAPI.NewTransaction(context.Background()).Execute()
 
@@ -162,7 +162,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService RefundAll", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var transactionId string
 
@@ -176,7 +176,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService SyncTransaction", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var transactionId string
 
@@ -190,7 +190,7 @@ func Test_openapi_TransactionsAPIService(t *testing.T) {
 
 	t.Run("Test TransactionsAPIService VoidTransaction", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var transactionId string
 

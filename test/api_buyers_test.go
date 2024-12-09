@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_BuyersAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_BuyersAPIService(t *testing.T) {
 
 	t.Run("Test BuyersAPIService DeleteBuyer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var buyerId string
 
@@ -37,7 +37,7 @@ func Test_openapi_BuyersAPIService(t *testing.T) {
 
 	t.Run("Test BuyersAPIService DeleteBuyerShippingDetail", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var buyerId string
 		var shippingDetailId string
@@ -51,7 +51,7 @@ func Test_openapi_BuyersAPIService(t *testing.T) {
 
 	t.Run("Test BuyersAPIService GetBuyer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var buyerId string
 
@@ -65,7 +65,7 @@ func Test_openapi_BuyersAPIService(t *testing.T) {
 
 	t.Run("Test BuyersAPIService ListBuyerShippingDetails", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var buyerId string
 
@@ -79,7 +79,7 @@ func Test_openapi_BuyersAPIService(t *testing.T) {
 
 	t.Run("Test BuyersAPIService ListBuyers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.BuyersAPI.ListBuyers(context.Background()).Execute()
 
@@ -91,7 +91,7 @@ func Test_openapi_BuyersAPIService(t *testing.T) {
 
 	t.Run("Test BuyersAPIService NewBuyer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.BuyersAPI.NewBuyer(context.Background()).Execute()
 
@@ -103,7 +103,7 @@ func Test_openapi_BuyersAPIService(t *testing.T) {
 
 	t.Run("Test BuyersAPIService NewBuyerShippingDetail", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var buyerId string
 
@@ -117,7 +117,7 @@ func Test_openapi_BuyersAPIService(t *testing.T) {
 
 	t.Run("Test BuyersAPIService UpdateBuyer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var buyerId string
 
@@ -131,7 +131,7 @@ func Test_openapi_BuyersAPIService(t *testing.T) {
 
 	t.Run("Test BuyersAPIService UpdateBuyerShippingDetail", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var buyerId string
 		var shippingDetailId string

@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_DigitalWalletsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DigitalWalletsAPIService(t *testing.T) {
 
 	t.Run("Test DigitalWalletsAPIService AddDigitalWalletDomainName", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var digitalWalletId string
 
@@ -37,7 +37,7 @@ func Test_openapi_DigitalWalletsAPIService(t *testing.T) {
 
 	t.Run("Test DigitalWalletsAPIService DeleteDigitalWallet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var digitalWalletId string
 
@@ -50,7 +50,7 @@ func Test_openapi_DigitalWalletsAPIService(t *testing.T) {
 
 	t.Run("Test DigitalWalletsAPIService DeleteDigitalWalletDomainName", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var digitalWalletId string
 
@@ -63,7 +63,7 @@ func Test_openapi_DigitalWalletsAPIService(t *testing.T) {
 
 	t.Run("Test DigitalWalletsAPIService GetDigitalWallet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var digitalWalletId string
 
@@ -77,7 +77,7 @@ func Test_openapi_DigitalWalletsAPIService(t *testing.T) {
 
 	t.Run("Test DigitalWalletsAPIService ListDigitalWallets", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DigitalWalletsAPI.ListDigitalWallets(context.Background()).Execute()
 
@@ -89,7 +89,7 @@ func Test_openapi_DigitalWalletsAPIService(t *testing.T) {
 
 	t.Run("Test DigitalWalletsAPIService NewDigitalWallet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DigitalWalletsAPI.NewDigitalWallet(context.Background()).Execute()
 
@@ -101,7 +101,7 @@ func Test_openapi_DigitalWalletsAPIService(t *testing.T) {
 
 	t.Run("Test DigitalWalletsAPIService UpdateDigitalWallet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var digitalWalletId string
 

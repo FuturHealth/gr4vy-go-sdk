@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_PaymentServicesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_PaymentServicesAPIService(t *testing.T) {
 
 	t.Run("Test PaymentServicesAPIService CreatePaymentServiceSession", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var paymentServiceId string
 
@@ -38,7 +38,7 @@ func Test_openapi_PaymentServicesAPIService(t *testing.T) {
 
 	t.Run("Test PaymentServicesAPIService DeletePaymentService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var paymentServiceId string
 
@@ -51,7 +51,7 @@ func Test_openapi_PaymentServicesAPIService(t *testing.T) {
 
 	t.Run("Test PaymentServicesAPIService GetPaymentService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var paymentServiceId string
 
@@ -65,7 +65,7 @@ func Test_openapi_PaymentServicesAPIService(t *testing.T) {
 
 	t.Run("Test PaymentServicesAPIService ListPaymentServices", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PaymentServicesAPI.ListPaymentServices(context.Background()).Execute()
 
@@ -77,7 +77,7 @@ func Test_openapi_PaymentServicesAPIService(t *testing.T) {
 
 	t.Run("Test PaymentServicesAPIService NewPaymentService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PaymentServicesAPI.NewPaymentService(context.Background()).Execute()
 
@@ -89,7 +89,7 @@ func Test_openapi_PaymentServicesAPIService(t *testing.T) {
 
 	t.Run("Test PaymentServicesAPIService UpdatePaymentService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var paymentServiceId string
 

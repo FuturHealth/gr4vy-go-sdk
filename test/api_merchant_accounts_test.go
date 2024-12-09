@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_MerchantAccountsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_MerchantAccountsAPIService(t *testing.T) {
 
 	t.Run("Test MerchantAccountsAPIService DeleteMerchantAccuont", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var merchantAccountId string
 
@@ -37,7 +37,7 @@ func Test_openapi_MerchantAccountsAPIService(t *testing.T) {
 
 	t.Run("Test MerchantAccountsAPIService GetMerchantAccount", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var merchantAccountId string
 
@@ -51,7 +51,7 @@ func Test_openapi_MerchantAccountsAPIService(t *testing.T) {
 
 	t.Run("Test MerchantAccountsAPIService ListMerchantAccounts", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MerchantAccountsAPI.ListMerchantAccounts(context.Background()).Execute()
 
@@ -63,7 +63,7 @@ func Test_openapi_MerchantAccountsAPIService(t *testing.T) {
 
 	t.Run("Test MerchantAccountsAPIService NewMerchantAccount", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MerchantAccountsAPI.NewMerchantAccount(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_MerchantAccountsAPIService(t *testing.T) {
 
 	t.Run("Test MerchantAccountsAPIService UpdateMerchantAccount", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var merchantAccountId string
 

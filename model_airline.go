@@ -59,7 +59,7 @@ type Airline struct {
 // will change when the set of required properties is changed
 func NewAirline() *Airline {
 	this := Airline{}
-	var ticketDeliveryMethod TICKET_DELIVERY_METHOD = "electronic"
+	var ticketDeliveryMethod = "electronic"
 	this.TicketDeliveryMethod = *NewNullableString(&ticketDeliveryMethod)
 	return &this
 }
@@ -69,7 +69,7 @@ func NewAirline() *Airline {
 // but it doesn't guarantee that properties required by API are set
 func NewAirlineWithDefaults() *Airline {
 	this := Airline{}
-	var ticketDeliveryMethod TICKET_DELIVERY_METHOD = "electronic"
+	var ticketDeliveryMethod = "electronic"
 	this.TicketDeliveryMethod = *NewNullableString(&ticketDeliveryMethod)
 	return &this
 }

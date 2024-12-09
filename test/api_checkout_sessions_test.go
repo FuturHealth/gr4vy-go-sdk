@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_CheckoutSessionsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_CheckoutSessionsAPIService(t *testing.T) {
 
 	t.Run("Test CheckoutSessionsAPIService DeleteCheckoutSession", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var checkoutSessionId string
 
@@ -37,7 +37,7 @@ func Test_openapi_CheckoutSessionsAPIService(t *testing.T) {
 
 	t.Run("Test CheckoutSessionsAPIService GetCheckoutSession", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var checkoutSessionId string
 
@@ -51,7 +51,7 @@ func Test_openapi_CheckoutSessionsAPIService(t *testing.T) {
 
 	t.Run("Test CheckoutSessionsAPIService NewCheckoutSession", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.CheckoutSessionsAPI.NewCheckoutSession(context.Background()).Execute()
 
@@ -63,7 +63,7 @@ func Test_openapi_CheckoutSessionsAPIService(t *testing.T) {
 
 	t.Run("Test CheckoutSessionsAPIService UpdateCheckoutSession", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var checkoutSessionId string
 

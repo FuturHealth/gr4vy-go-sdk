@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+	openapiclient "github.com/FuturHealth/gr4vy-go-sdk"
 )
 
 func Test_openapi_ReportsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ReportsAPIService(t *testing.T) {
 
 	t.Run("Test ReportsAPIService GenerateDownloadUrl", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var reportId string
 		var reportExecutionId string
@@ -39,7 +39,7 @@ func Test_openapi_ReportsAPIService(t *testing.T) {
 
 	t.Run("Test ReportsAPIService GetReport", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var reportId string
 
@@ -53,7 +53,7 @@ func Test_openapi_ReportsAPIService(t *testing.T) {
 
 	t.Run("Test ReportsAPIService GetReportExecution", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var reportExecutionId string
 
@@ -67,7 +67,7 @@ func Test_openapi_ReportsAPIService(t *testing.T) {
 
 	t.Run("Test ReportsAPIService ListAllReportExecutions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReportsAPI.ListAllReportExecutions(context.Background()).Execute()
 
@@ -79,7 +79,7 @@ func Test_openapi_ReportsAPIService(t *testing.T) {
 
 	t.Run("Test ReportsAPIService ListReportExecutions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var reportId string
 
@@ -93,7 +93,7 @@ func Test_openapi_ReportsAPIService(t *testing.T) {
 
 	t.Run("Test ReportsAPIService ListReports", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReportsAPI.ListReports(context.Background()).Execute()
 
@@ -105,7 +105,7 @@ func Test_openapi_ReportsAPIService(t *testing.T) {
 
 	t.Run("Test ReportsAPIService NewReport", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReportsAPI.NewReport(context.Background()).Execute()
 
@@ -117,7 +117,7 @@ func Test_openapi_ReportsAPIService(t *testing.T) {
 
 	t.Run("Test ReportsAPIService UpdateReport", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var reportId string
 
