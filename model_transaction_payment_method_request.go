@@ -47,6 +47,10 @@ type TransactionPaymentMethodRequest struct {
 	CardholderName NullableString `json:"cardholder_name,omitempty"`
 	// The cryptogram of the network token.
 	Cryptogram NullableString `json:"cryptogram,omitempty"`
+	// manaully added as not in specs
+	CardScheme NullableString `json:"card_scheme,omitempty"`
+	// manaully added as not in specs
+	CardSuffix NullableString `json:"card_suffix,omitempty"`
 }
 
 type _TransactionPaymentMethodRequest TransactionPaymentMethodRequest
