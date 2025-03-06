@@ -44,6 +44,8 @@ type CartItem struct {
 	Categories []string `json:"categories,omitempty"`
 	// The product type of the cart item.
 	ProductType NullableString `json:"product_type,omitempty"`
+	// Sellect country
+	SellerCountry NullableString `json:"seller_country,omitempty"`
 }
 
 type _CartItem CartItem
